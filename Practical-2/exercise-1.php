@@ -3,29 +3,27 @@
 <html>
     <body>
     <?php
-// Defining some variables for logical operations
 $a = true;
 $b = false;
 $c = 10;
 $d = 20;
 
-// Logical AND (&&)
 echo "1. Logical AND (&&):\n";
 if ($c > $d && $a) {
     echo "Both conditions are true.\n";
 } else {
-    echo "One or both conditions are false.\n"; // Output: One or both conditions are false.
+    echo "One or both conditions are false.\n";
 }
 
 // Logical OR (||)
 echo "\n2. Logical OR (||):\n";
 if ($c > $d || $b) {
-    echo "At least one condition is true.\n"; // Output: At least one condition is true.
+    echo "At least one condition is true.\n";
 } else {
     echo "Both conditions are false.\n";
 }
 
-// Logical XOR (exclusive OR)
+
 echo "\n3. Logical XOR (xor):\n";
 if ($a xor $b) {
     echo "Only one condition is true.\n"; // Output: Only one condition is true.

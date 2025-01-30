@@ -75,7 +75,8 @@ if ($d <= $c) {
 
 // 9. Spaceship Operator (<=>)
 echo "\n9. Spaceship Operator (<=>):\n";
-echo $a <=> $c; // Output will be -1, 0, or 1 based on comparison
+echo $a <=> $c;
+ // Output will be -1, 0, or 1 based on comparison
 
 // 10. Equality in Arrays (==)
 echo "\n10. Equality in Arrays (==):\n";
